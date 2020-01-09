@@ -19,9 +19,9 @@ class CalculatorFragment : Fragment(), View.OnClickListener {
     private var operationEuclidDiv = false
 
     override fun onCreateView(
-            inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_calculator, container, false)
     }
@@ -65,21 +65,15 @@ class CalculatorFragment : Fragment(), View.OnClickListener {
             R.id.buttonSeven,
             R.id.buttonEight,
             R.id.buttonNine,
-            R.id.buttonZero -> {
-                enterDigit((v as Button).text.toString())
-            }
+            R.id.buttonZero -> enterDigit((v as Button).text.toString())
 
-            R.id.buttonDot -> {
-                enterDecimal()
-            }
 
-            R.id.buttonDeleteAll -> {
-                enterClear()
-            }
+            R.id.buttonDot -> enterDecimal()
 
-            R.id.buttonDelete -> {
-                enterDelete()
-            }
+
+            R.id.buttonDeleteAll -> enterClear()
+
+            R.id.buttonDelete -> enterDelete()
 
             R.id.buttonAdd -> {
                 if (textResult.text.toString().length != 0) {
