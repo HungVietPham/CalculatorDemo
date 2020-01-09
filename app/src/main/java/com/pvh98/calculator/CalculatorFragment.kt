@@ -19,9 +19,9 @@ class CalculatorFragment : Fragment(), View.OnClickListener {
     private var operationEuclidDiv = false
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_calculator, container, false)
     }
@@ -153,7 +153,6 @@ class CalculatorFragment : Fragment(), View.OnClickListener {
 
     private fun enterDecimal() {
         if (!operationDecimal) {
-        } else {
             textResult.text = textResult.text.toString() + "."
             operationDecimal = true
         }
