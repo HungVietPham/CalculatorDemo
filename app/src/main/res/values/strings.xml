@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calc_ac">AC</string>
+    <string name="calc_divide">/</string>
+    <string name="calc_eucliddivide">%</string>
+    <string name="calc_seven">7</string>
+    <string name="calc_eight">8</string>
+    <string name="calc_nine">9</string>
+    <string name="calc_mutiple">X</string>
+    <string name="calc_four">4</string>
+    <string name="calc_five">5</string>
+    <string name="calc_six">6</string>
+    <string name="calc_minus">-</string>
+    <string name="calc_one">1</string>
+    <string name="calc_two">2</string>
+    <string name="calc_three">3</string>
+    <string name="calc_add">+</string>
+    <string name="calc_zero">0</string>
+    <string name="calc_dot">.</string>
+    <string name="calc_equal">=</string>
+    <string name="calc_c">c</string>
+    <string name="hint_0">0</string>
+</resources>
